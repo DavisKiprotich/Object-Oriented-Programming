@@ -1,0 +1,8 @@
+// Note that = sign is used instead of : sign.
+
+function Dog(){
+  this.name = "Bailey";
+  this.color = "black";
+  this.numLegs= 4
+
+}
