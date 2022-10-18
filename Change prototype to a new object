@@ -1,0 +1,15 @@
+function Dog(name) {
+  this.name = name;
+}
+
+Dog.prototype = {
+  numLegs: 2,
+  eat: function(){
+    console.log("WOOW WOOW WOOF")
+  },
+  describe: function(){
+    return "my name is " + this.name
+  }
+
+};
+console.log(Dog.describe)
