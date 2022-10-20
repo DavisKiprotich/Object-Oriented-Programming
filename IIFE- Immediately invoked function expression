@@ -1,0 +1,12 @@
+// Before IIFE
+function makeNest() {
+  console.log("A cozy nest is ready");
+}
+
+makeNest();
+
+// After IIFE
+(function() {
+  console.log("A cozy nest is ready");
+})();
+
